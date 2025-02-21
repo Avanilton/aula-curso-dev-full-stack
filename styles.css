@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.background {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.camadadecima {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+header {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+}
+
+.idioma1 {
+    display: flex;
+    gap: 10px;
+}
+
+.idioma, .login {
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: 1px solid white;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.login {
+    background: red;
+    border: none;
+}
+
+.conteudo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.conteudo h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.conteudo p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
